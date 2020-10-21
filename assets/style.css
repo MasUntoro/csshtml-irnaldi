@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+	font-family: sans-serif;
+	height: 100%;
+}
+
+/* HEADER  */
+header {
+	background-image: url("../image/fahmiheni.jpg");
+	background-position: center	center;
+	background-repeat: no-repeat repeat;
+	background-size: cover;
+	position: relative;
+	height: 50%;
+}
+#judul h2{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 2em;
+}
+
+#judul p{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+	left: 50%;
+	padding: 20px;
+    transform: translate(-50%, -50%);
+	color: #fff;
+	margin-top: 80px;
+}
+
+
+/* Menu Nav */
+nav ul {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+    padding: 10px 20px 10px 20px ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+	font-weight: bold;
+}
+
+li a:hover {
+	background-color: #e0e0e0;
+	border-radius: 30px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+
+/* End Menu Nav */
+
+
+/** Main Flex **/
+.jumbotron {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding: 0 20px 0 20px;
+	box-shadow: 10px 10px #7c7a7a;
+	display: block;
+}
+
+.jumbotron h1 {
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+.jumbotron p {
+	font-size: 18px;
+	text-align: center;
+	padding: 0 20px 0 20px;
+}
+
+.jumbotron img {
+	box-shadow: 0 0 4px 4px #000;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.jumbotron img:hover {
+	background-color: #63d4f9;
+}
+
+#main .box-area	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.single-box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #63d4f9;
+	text-align: center;
+	margin: 5px;
+	padding: 20px;
+	transition: .3s;
+}
+
+.single-box p {
+	color: black;
+}
+
+#main  .img-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	border: 5px solid #ddd;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	padding: 20px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.single-box:nth-child(1) .img-area {
+	background-image: url("../image/unkris.jpg");
+}
+.single-box:nth-child(2) .img-area {
+	background-image: url("../image/nexwave.jpg");
+}
+.single-box:nth-child(3) .img-area {
+	background-image: url("../image/tmi.jpg");
+}
+
+.header-text {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 48px;
+}
+
+.img-text	{
+	font-family: sans-serif;
+	padding-top: 20px;
+}
+
+.img-text p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.single-box:hover {
+	background-color: #2b95ff;
+}
+/** End Main Flex **/
+
+/** CSS COLUMN **/
+.row {
+	max-width: 100%;
+}
+.column	{
+	width: 350px;
+	display: block;
+	margin: 20px 0 20px 20px;
+}
+
+
+/** CSS Skill MS OFFICE**/
+.jumbotron h5 {
+	float: left;
+}
+
+.m-office { /** CSS Skill MS OFFICE**/
+	width: 80%;
+	height: 30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.skill {
+	text-align: center;
+	color: white;
+}
+
+.office {
+	width: 80%;
+	height: 30px;
+	background-color: lime;
+	border-radius: 20px;
+}
+
+/** CSS Skill PAJAK **/
+.data-pajak { /** CSS Skill PAJAK **/
+	width: 80%;
+	height: 30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.pajak {
+	width: 60%;
+	height: 30px;
+	background-color: #4285f4;
+	border-radius: 20px;
+}
+
+.m-web { /** CSS Skill WEB **/
+	width: 80%;
+	height: 30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.web {
+	width: 90%;
+	height: 30px;
+	background-color: lime;
+	border-radius: 20px;
+}
+
+.m-analys { /** CSS Skill WEB **/
+	width: 80%;
+	height: 30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.analys {
+	width: 70%;
+	height: 30px;
+	background-color: lime;
+	border-radius: 20px;
+}
+
+.m-coffee { /** CSS Skill COFFEE **/
+	width: 80%;
+	height: 30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.coffee {
+	width: 30%;
+	height: 30px;
+	background-color: #8c6e02;
+	border-radius: 20px;
+}
+
+.m-tea { /** CSS Skill TEA **/
+	width: 80%;
+	height: 30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.tea {
+	width: 40%;
+	height: 30px;
+	background-color: #4285f4;
+	border-radius: 20px;
+}
+
+
+
+
+/** CSS Footer **/
+.footer {
+	background-color: #63d4f9;
+	width: 100%;
+
+}
+
+.footer p {
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	font-weight: bold;
+}
+
+
+
+
+
